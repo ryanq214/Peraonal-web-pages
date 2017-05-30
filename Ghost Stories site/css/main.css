@@ -107,6 +107,46 @@ nav h1{
 
 
 
+/**********************************
+  back to top button
+**********************************/
+
+
+.b-t{
+  color: yellow;
+  text-align: center;
+  display: block;
+  /*margin: 20px 0 10px;*/
+  clear: both;
+}
+
+.b-t:hover{
+  text-decoration: underline;
+  cursor: pointer; cursor: hand;
+}
+
+
+
+
+/****************************************
+    footer section
+*****************************************/
+
+
+footer{
+  background: linear-gradient(#848484, #2E2E2E);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding:3px 0;
+  clear: both;
+
+}
+
+.top{
+  min-height: calc( 100vh - 45px);
+}
+
 
 
 
