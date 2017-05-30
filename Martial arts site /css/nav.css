@@ -11,10 +11,15 @@ body{
   /*background: linear-gradient(#848484, white);*/
 
 }
-
-.main{
-  background: linear-gradient(darkblue,midnightblue,blue);
-
+html {
+  min-height: 100%;
+}
+body {
+  /*height: 100%;*/
+  /*min-height: 100%;*/
+  background: url("../pic/muay.png") no-repeat center fixed, linear-gradient( #16222a,#3a6073);
+  /*background-color:  linear-gradient( #16222a,#3a6073);*/
+  color: white;
 }
 
 img{
@@ -80,7 +85,7 @@ nav{
   /*background: linear-gradient(darkblue,midnightblue,blue);*/
   /*#848484,*/
   margin: 0;
-  padding: 0;
+  padding: 0 0 1px;
   box-sizing: border-box;
 }
 
@@ -98,6 +103,49 @@ nav a{
   border-left: 3px solid black;
   border-right: 3px solid black;
 
+}
+
+
+
+/**********************************
+  back to top button
+**********************************/
+
+
+.b-t{
+  color: yellow;
+  text-align: center;
+  display: block;
+  /*margin: 20px 0 10px;*/
+  clear: both;
+}
+
+.b-t:hover{
+  text-decoration: underline;
+  cursor: pointer; cursor: hand;
+}
+
+
+
+
+
+/****************************************
+    footer section
+*****************************************/
+
+
+footer{
+  background: linear-gradient(#848484, white);
+  color: black;
+  width: 100%;
+  text-align: center;
+  padding:3px 0;
+  clear: both;
+
+}
+
+.up{
+  min-height: calc( 100vh - 45px);
 }
 
 
@@ -164,6 +212,16 @@ nav a{
 }
 
 
+
+/****************************
+  Clear fix
+****************************/
+
+.group:after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
