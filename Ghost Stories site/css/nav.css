@@ -4,6 +4,11 @@ h1, h2, h3, h4, h5, h6{
   font-weight: bold;
 }
 
+h2, h3, h4, h5, p{
+  font-weight: bolder;
+
+}
+
 body{
   font-family: sans-serif;
   padding: 0;
@@ -12,6 +17,7 @@ body{
   background-size: cover;
   color: white;
   font-family: 'Fredericka the Great', sans-serif;
+  font-weight: bolder;
 }
 
 
